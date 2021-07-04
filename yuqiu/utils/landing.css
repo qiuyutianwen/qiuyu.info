@@ -1,0 +1,76 @@
+.photo_box {
+    width: 200px;
+    height: 271px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.photo_box:hover {
+    background: rgba(0,0,0,0.4);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.photo_box img {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.photo_box:hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.photo_box svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.photo_box svg line {
+    stroke-width: 3;
+    fill: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.photo_box:hover svg line {
+    stroke-width: 10;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.photo_box svg line.top,
+.photo_box svg line.bottom {
+    stroke-dasharray: 230 140;
+}
+.photo_box svg line.left,
+.photo_box svg line.right {
+    stroke-dasharray: 301 210;
+}
+.photo_box:hover svg line.top {
+    -webkit-transform: translateX(-200px);
+    transform: translateX(-200px);
+}
+.photo_box:hover svg line.bottom {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+}
+.photo_box:hover svg line.left {
+    -webkit-transform: translateY(271px);
+    transform: translateY(271px);
+}
+.photo_box:hover svg line.right {
+    -webkit-transform: translateY(-271px);
+    transform: translateY(-271px);
+}
+
+.white_background svg line {
+    stroke: rgba(0, 187, 204, 0.6);
+}
+.black_background svg line{
+    stroke: rgba(155, 23, 94, 0.6);
+}
