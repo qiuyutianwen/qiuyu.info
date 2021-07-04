@@ -40,7 +40,7 @@ const fancyMarketProject = (
         key="Web DEMO"
         title="WEB DEMO"
         iconType="DEMO"
-        href="https://youtu.be/XTzPi3lRjXI"
+        href="https://youtu.be/0TMDEVYQjV8"
       />,
     ]}
   />
