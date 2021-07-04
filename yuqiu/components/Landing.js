@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Flex,
-  Image,
-  Text,
-  IconButton,
-  useColorMode,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, IconButton, useColorMode } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiFileText } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";

@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from "react";
-import TextLink, { IconTextLink } from "../TextLink";
+import TextLink from "../TextLink";
 import Project from "./Project";
 import {
   JavaBadge,
