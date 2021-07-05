@@ -9,6 +9,7 @@
     transition: background 0.3s;
     overflow: hidden;
     margin-left: 50px;
+    margin-right: 50px;
 }
 .photo_box:hover {
     background: rgba(0,0,0,0.4);
