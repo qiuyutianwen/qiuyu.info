@@ -4,7 +4,7 @@ import TextLink from "../TextLink";
 import Project from "./Project";
 import {
   JavaBadge,
-  MySQLBadge,
+  DynamoDBBadge,
   JavaScriptBadge,
   AWSBadge,
   AppiumBadge,
@@ -39,7 +39,7 @@ const raProject = (
     badges={[
       JavaBadge,
       JavaScriptBadge,
-      MySQLBadge,
+      DynamoDBBadge,
       AWSBadge,
       DockerBadge,
       AppiumBadge,

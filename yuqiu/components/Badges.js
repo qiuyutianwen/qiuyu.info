@@ -21,6 +21,12 @@ export const MySQLBadge = (
   </Badge>
 );
 
+export const DynamoDBBadge = (
+  <Badge key="DynamoDB" style={{ ...whiteStyle, backgroundColor: "#06467a" }}>
+    DynamoDB
+  </Badge>
+);
+
 export const PHPBadge = (
   <Badge key="php" style={{ ...whiteStyle, backgroundColor: "#d9c123" }}>
     PHP
