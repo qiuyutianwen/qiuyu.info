@@ -91,19 +91,36 @@ const AboutMe = () => {
           why I transferred my major and started my study at SJSU.
         </p>
         <p style={{ margin: "25px" }}>
-          Currently, I am doing an internship at CletePoint, Inc., which is a
-          startup focusing on automated stock trading. My primary work include
-          building front-end UI applications with&nbsp;
+          From May 2021 to May 2022, I worked as a part time Software Developer
+          at&nbsp;
+          <TextLink href="https://www.butterflyvest.com/">
+            CletePoint, Inc.
+          </TextLink>
+          , which is a startup focusing on automated stock trading. My primary
+          work include building front-end UI applications with&nbsp;
           <TextLink href="https://reactjs.org/">React</TextLink>, developing
           back-end services with&nbsp;
           <TextLink href="https://spring.io/">Java Spring boot</TextLink>,
           designing database with&nbsp;
           <TextLink href="https://www.mysql.com/">Mysql</TextLink>
-          &nbsp;and deploying services to&nbsp;
+          &nbsp;deploying services to&nbsp;
           <TextLink href="https://aws.amazon.com/elasticbeanstalk/">
             AWS Elastic Beanstalk
           </TextLink>
-          .
+          &nbsp;and developing a mobile APP with&nbsp;
+          <TextLink href="https://reactnative.dev/">React Native</TextLink>.
+        </p>
+        <p style={{ margin: "25px" }}>
+          In Summer 2022, I worked as a SDE intern at&nbsp;
+          <TextLink href="https://en.wikipedia.org/wiki/Amazon_(company)">
+            Amazon.com Inc.
+          </TextLink>
+          .&nbsp;During the internship, I developed an online code editor with
+          Typescript, built a RESTful API with Java, and re-constructed the
+          message system of the team&apos;s website. I attended daily stand-up
+          meeting and bi-week Sprint plan and finished the project before the
+          deadline. Finally, I contributed 10,000+ lines of changes and ranked
+          #2 in a team of 13 members.
         </p>
       </Box>
     </Box>
